@@ -4,13 +4,17 @@ import { Link } from 'react-router-dom';
 
 const Navgation = () => {
     return ( 
-        <nav>
-      <ul>
-  <li>< Link to ="/">HOME</ Link></li>
-  <li>< Link to ="/about">ABOUT</Link></li>
-  <li><Link to="/faq">FAQ</Link></li>
-</ul>
-        </nav>
+      <nav>
+      <img src="../img/Logo.png" alt="" />
+     <ul>
+         <li><Link to="/Home">Home</Link></li>
+         <li><Link to="/Destinations">Destinations</Link></li>
+         <li><Link to="/about">About</Link></li>
+         <li><Link to="/partner">Partner</Link></li>
+         <li className="login">login</li>
+         <li className="register">register</li>
+     </ul>
+    </nav>
      );
 }
  
