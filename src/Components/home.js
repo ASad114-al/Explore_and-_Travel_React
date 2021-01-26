@@ -1,11 +1,11 @@
-
+;
 
 
 const Home = () => {
     return ( 
        
-        <main>
-             
+        <main className='HeaderMain'>
+            
              <article className='newWay'>
                  <div>
                  <img src="../img/Thousand.png" alt=""/>

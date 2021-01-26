@@ -3,9 +3,8 @@ import Home from './Components/Home';
 import About from './Components/about';
 import Partner from './Components/partner';
 import Destinations from './Components/Destinations';
-
-
 import Footer from './Components/footer';
+import Header from './Components/Header';
 import './App.css'
 
 
@@ -13,15 +12,17 @@ import './App.css'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  
+  Route
 } from "react-router-dom";
 
 function App() {
   return (
     
     <Router>
-    <Navgation/>
+    < Navgation />
+
+    <Header />
+    
     <Switch>
       <Route path="/" exact >
         <Home />
