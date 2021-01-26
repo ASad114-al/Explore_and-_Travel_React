@@ -1,5 +1,3 @@
-
-import moduleName from 'module';
 import { Link } from 'react-router-dom';
 
 const Navgation = () => {

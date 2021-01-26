@@ -1,7 +1,10 @@
 import  Navgation from './Components/ Navgation';
-// import homes from './Components/home';
-// import about from './Components/about';
-// import faq from './Components/faq';
+import Home from './Components/Home';
+import About from './Components/about';
+import Partner from './Components/partner';
+import Destinations from './Components/Destinations';
+
+
 import Footer from './Components/footer';
 import './App.css'
 
@@ -16,25 +19,24 @@ import {
 
 function App() {
   return (
-    // <> </>
-  <Router>
-  
- <Navgation/>
-   
+    
+    <Router>
+    <Navgation/>
     <Switch>
-      <Route path="/">
-        <homes />
+      <Route path="/Home" exact>
+        <Home />
       </Route>
-      <Route path="/about">
-        <about />
+      <Route path="/Destinations" exact>
+        <Destinations />
       </Route>
-      <Route path="/faq">
-        <faq />
-      </Route>
+
+      <Route path="/about" component={About} exact />
+
+      <Route path="/partner" component={Partner} exact />
     </Switch>
     <Footer/>
- 
-</Router>
+
+  </ Router>
 );
 
   
