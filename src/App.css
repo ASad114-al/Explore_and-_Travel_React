@@ -86,3 +86,47 @@ nav a:hover{
   background-color: white;
   color: #FB8F1D;
 }
+
+.newWay{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 15%;
+}
+
+.newText h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 10%;
+}
+.newText h4{
+font-family: Mulish;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 30px;
+color: #7D7987;
+mix-blend-mode: normal;
+}
+#ring img{
+  margin-left: 35%;
+}
+#btn{
+width: 140px;
+height: 4vh;
+text-align: center;
+border-radius: 8px;
+border: none;
+color: #FFFFFF;
+background: #FB8F1D;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+
+}

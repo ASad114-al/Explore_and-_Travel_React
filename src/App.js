@@ -23,16 +23,16 @@ function App() {
     <Router>
     <Navgation/>
     <Switch>
-      <Route path="/Home" exact>
+      <Route path="/" exact >
         <Home />
       </Route>
-      <Route path="/Destinations" exact>
+      <Route path="/Destinations" >
         <Destinations />
       </Route>
 
-      <Route path="/about" component={About} exact />
+      <Route path="/about" component={About}  />
 
-      <Route path="/partner" component={Partner} exact />
+      <Route path="/partner" component={Partner}  />
     </Switch>
     <Footer/>
 
