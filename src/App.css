@@ -128,5 +128,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 
+}
+.newWay:nth-of-type(1) img {
 
+  margin-left: -10%;
 }
