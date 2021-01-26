@@ -48,7 +48,7 @@ footer{
   }
   nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width:50%;
     margin: 4% 0 10% 1%;
     list-style-type: none;
@@ -213,6 +213,92 @@ color: #202336;
     height: 20px;
     left: 657px;
     top: 220px;
+    transform: rotate(7.69deg);
 
-    
    }
+
+ 
+   /* partner */
+   .partner{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+   }
+   .Testimonials{
+     margin-left: 12%;
+   }
+   .Testimonials h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px; 
+    color: #000000;
+    margin-bottom: 25%;
+
+   }
+   .Testimonials h4{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+
+   }
+
+   .Testimonials h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+   }
+   .Testimonials h6{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: -5%;
+   }
+   #man{
+     border-radius: 15px;
+   }
+   #white{
+     position: absolute;
+      width: 132px;
+      height: 60px;
+      left: 1212px;
+      top: 1690px;
+      border-radius: 16px 0px 0px 0px;
+   }
+   #back{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1228px;
+    top: 1700px;  
+   }
+   #next{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1288px;
+    top: 1700px; 
+   }
+   #plus_partner{
+    position: absolute;
+    width: 31.72px;
+    height: 31.64px;
+    left: 945.66px;
+    top: 1728px;
+   }
+   #scrol_partner{
+    position: absolute;
+    height: 42px;
+    left: 1340px;
+    top: 1240px;
+   }
+  
