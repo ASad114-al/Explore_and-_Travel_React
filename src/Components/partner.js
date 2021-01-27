@@ -1,3 +1,5 @@
+import Section2 from './Stories';
+
 const Partner = () => {
     return (  
         <main className='HeaderMain'>
@@ -26,6 +28,9 @@ const Partner = () => {
             </article>  
            
 
+            </section>
+            <section className='stories'>
+                <Section2 />
             </section>
         </main>
     );
